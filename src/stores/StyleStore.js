@@ -5,7 +5,7 @@ useStrict(true);
 class StyleStore {
 
   /**
-   * ApplicationBar Styles
+   * ApplicationBar Styles.
    */
   @observable applicationBarStyle = {
     height: 40,
@@ -13,6 +13,9 @@ class StyleStore {
     color: '#ffffff'
   }
 
+  /**
+   * UI Handle to change theme to dark.
+   */
   @action switchToDarkTheme() {
     this.applicationBarStyle = {
       ...this.applicationBarStyle,
@@ -21,6 +24,9 @@ class StyleStore {
     }
   }
 
+  /**
+   * UI Handle to change theme to light.
+   */
   @action switchToLightTheme() {
     this.applicationBarStyle = {
       ...this.applicationBarStyle,
