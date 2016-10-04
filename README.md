@@ -1,7 +1,8 @@
 Proof of Concept of how to allow enable runtime application style changes using ReactJS and MobX.
 This would allow the user to navigate to an area in an app, and choosing a desired application theme (Light/Dark), without requiring an app refresh.
 
-// *********************************************************************************************************************************
+// ****************************************************
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
